@@ -23,7 +23,7 @@ body {
   width: 100%;
   background-color: #085392;
 }
-.header-form {
+.form-header {
   display: block;
   padding: 20px;
   color: #e2e2e2;
@@ -34,7 +34,7 @@ body {
   border-right: 1px solid #56a2dc;
   height: 35px;
 }
-.minhas {
+.minhas-section {
   float: right;
   height: 35px;
   width: 135px;
@@ -42,14 +42,14 @@ body {
   padding-right: 10px;
   color: white;
 }
-.minhas p{
+.minhas-section p{
   margin-top: 10px;
 }
 .img-flag {
   padding: 5px;
   float: left;
 }
-.ola {
+.ola-section {
   float: right;
   height: 35px;
   background-color: #4aa6d8;
@@ -58,10 +58,10 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-.ola p{
+.ola-section p{
   margin-top: 10px;
 }
-.ola a {
+.ola-section a {
   color: white;
 }
 ul.menu li {
@@ -128,7 +128,7 @@ input:focus {
 .form-cadastre {
  text-align: center;
 }
-.ou {
+.ou-section {
     position: relative;
     overflow: hidden;
     font-size: 14px;
@@ -139,25 +139,25 @@ input:focus {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .ou > span {
+  .ou-section > span {
     display: inline-block;
     margin: 0 .4em;
   }
-  .ou > span:before,
-  .ou > span:after {
+  .ou-section > span:before,
+  .ou-section > span:after {
     content: '';
     position: absolute;
     width: 100%;
     border-top: 2px solid #4e4e4e;
     margin-top: .6em;
   }
-  .ou > span:before {
+  .ou-section > span:before {
     margin-left: -102%;
   }
-  .ou > span:after {
+  .ou-section > span:after {
     margin-left: 2%;
   }
-  .log-in-face {
+  .logo-button-facebook {
     display: block;
     width: 275px;
     height: 35px;
@@ -166,13 +166,13 @@ input:focus {
     margin-top: 35px;
     border-radius: 5px;
   }
-  .log-face {
+  .logo-facebook {
     float: left;
     border-right: 1px solid #243b6f;
     height: 35px;
     width: 30px;
   }
-  .log-face img {
+  .logo-facebook img {
     margin-top: 5px;
   }
   .text-fb {
@@ -182,6 +182,6 @@ input:focus {
     color: white;
     font-size: 16px;
   }
-  .face-go img{
+  .go-facebook img{
     margin-top: 10px;
   }
