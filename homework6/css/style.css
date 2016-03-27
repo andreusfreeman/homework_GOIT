@@ -16,9 +16,15 @@ body {
 section {
   margin-top: 10px;
   height: 25px;
+  margin-bottom: 8px;
 }
 header {
   margin-top: 10px;
+}
+.header {
+  background-image: url(../img/header.png);
+  width: 900px;
+  height: 235px;
 }
 nav {
   height: 30px;
@@ -64,14 +70,14 @@ nav {
 .nav-menu li {
   display: inline;
 }
-.koshyk {
+.cart {
   float: right;
   color: #929b9f;
   margin-top: 1px;
   font-size: 11px;
   margin-right: 35px;
 }
-.koshyk span {
+.cart span {
   color: #0d5a8f;
 }
 main {
@@ -139,8 +145,8 @@ figcaption span {
   background-color: #14496c;
   width: 496px;
   border-radius: 5px;
-  float: right;
-  margin-right: 9px;
+  float: left;
+  margin-left: 19px;
   font-family: Arial;
   box-shadow: 3px 3px 5px #969696;
 }
