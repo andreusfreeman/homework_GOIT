@@ -3,7 +3,7 @@
   margin: 0px;
 }
 body {
-  
+
 }
 @font-face {
     font-family: 'league_gothic';
@@ -578,6 +578,6 @@ footer {
 }
 @media screen and (min-width: 769px) {
   .wrapper {
-    width: 960px;
+    width: 100%;
   }
 }
