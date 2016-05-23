@@ -94,9 +94,10 @@ body {
     width: 245px;
     list-style: none;
     border-radius: 10px;
-    background: #2c2332;
+    background-color: rgb(72, 59, 78);
     z-index: 100;
     overflow: hidden;
+    filter: none !important;
   }
   .menu-home__item {
       border-bottom: 1px solid #3d3045;
