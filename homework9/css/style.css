@@ -111,6 +111,7 @@ body {
   }
   .menu-home:hover .menu-home__list{
     display: block;
+    background: #62D99C;
   }
   .slider {
     margin: 0 auto;
