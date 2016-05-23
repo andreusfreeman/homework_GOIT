@@ -87,7 +87,7 @@ body {
     border-bottom: 2px solid transparent;
   }
   .menu-home__list {
-    display: none;
+    display: block;
     position: absolute;
     top: 118px;
     left: 38px;
@@ -111,7 +111,6 @@ body {
   }
   .menu-home:hover .menu-home__list{
     display: block;
-    background: #62D99C;
   }
   .slider {
     margin: 0 auto;
