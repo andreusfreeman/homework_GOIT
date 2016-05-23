@@ -94,7 +94,7 @@ body {
     width: 245px;
     list-style: none;
     border-radius: 10px;
-    background-color: rgba(72, 59, 78, 0.6);
+    background: #2c2332;
     z-index: 100;
     overflow: hidden;
   }
