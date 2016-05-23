@@ -94,7 +94,7 @@ body {
     width: 245px;
     list-style: none;
     border-radius: 10px;
-    background-color: rgb(72, 59, 78);
+    background-color: #2c2332;
     z-index: 100;
     overflow: hidden;
     filter: none !important;
