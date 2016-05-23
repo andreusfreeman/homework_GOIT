@@ -94,7 +94,6 @@ body {
     width: 245px;
     list-style: none;
     border-radius: 10px;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     background-color: rgb(72, 59, 78);
     z-index: 100;
     overflow: hidden;
