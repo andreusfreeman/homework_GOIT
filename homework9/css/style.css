@@ -87,14 +87,14 @@ body {
     border-bottom: 2px solid transparent;
   }
   .menu-home__list {
-    display: none;
+    display: block;
     position: absolute;
     top: 118px;
     left: 38px;
     width: 245px;
     list-style: none;
     border-radius: 10px;
-    background-color: rgba(72, 59, 78, 0.6);
+    background-color: #2c2332 !important;
     z-index: 100;
     overflow: hidden;
   }
