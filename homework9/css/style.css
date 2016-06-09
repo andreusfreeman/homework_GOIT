@@ -28,9 +28,7 @@ body {
     font-style: normal;
 }
 @media screen and (min-width: 320px) {
-  header {
-    height: 516px;
-    /*height: 870px;*/
+  .above-section {
     background-image: url(../img/header.jpg);
     background-position-x: 50%;
   }
@@ -157,13 +155,15 @@ body {
     font-family: 'open_sanslight';
     color: #ffffff;
   }
+  .shape-block {
+    margin-top: 90px;
+    padding-bottom: 55px;
+  }
   .shape {
     width: 83px;
     height: 18px;
     background-image: url(../img/shape.png);
-    margin-top: 90px;
-    margin-left: 120px;
-    float: left;
+    margin: 0 auto;
   }
   section {
     width: 100%;
@@ -174,6 +174,8 @@ body {
     margin: 0 auto;
     margin-left: 40px;
     color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 65px;
   }
   .about-company__item {
     clear: both;
@@ -223,10 +225,17 @@ body {
     background-color: #f9f9f9;
     z-index: 2;
   }
+  .main-container {
+    padding-bottom: 70px;
+    overflow: hidden;
+  }
   .testimonia {
     margin: 0 auto;
     position: relative;
     margin-left: 26px;
+  }
+  .testimonia__item {
+    margin-top: 100px;
   }
   .testimonia__header {
     font-family: 'league_gothic';
@@ -328,10 +337,10 @@ body {
   }
   .logos-img {
     clear: both;
-    margin-top: 145px;
     border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
     float: left;
+    background-color: #f9f9f9;
   }
   .logos-img__item1 {
     display: block;
@@ -427,7 +436,9 @@ body {
   }
   .sign-design {
     text-align: center;
-    margin-top: 15px;
+    float: right;
+    margin-right: 35%;
+    margin-top: 30px;
     font-family: 'open_sanslight';
     font-size: 12px;
     color: #fff;
@@ -458,9 +469,6 @@ body {
     left: 118px;
   }
   .shape {
-    margin-left: 200px;
-    margin-top: 120px;
-    float: left;
     display: block;
   }
   .slider {
@@ -504,8 +512,8 @@ body {
     margin-left: 10px;
     font-size: 30px;
   }
-  .testimonia__block {
-
+  .testimonia__icon {
+    top: 20px;
   }
   .testimonia__text {
     height: 167px;
@@ -528,7 +536,6 @@ body {
     margin-right: 43px;
   }
   .logos-img {
-    margin-top: 86px;
   }
   footer {
     width: 100%;
@@ -536,6 +543,7 @@ body {
   }
   .menu-footer__list {
     display: block;
+    padding-top: 15px;
   }
   .sign-design {
     margin-top: 31px;
@@ -555,8 +563,7 @@ body {
   .wrapper {
     width: 100%;
   }
-  header {
-    height: 870px
+  .above-section {
   }
   .logo {
     text-align: left;
@@ -596,7 +603,7 @@ body {
     height: 209px;
   }
   .slider {
-    margin-top: 64px;
+    margin-top: 100px;
     height: 402px;
   }
   .slider__description {
@@ -629,11 +636,6 @@ body {
     height: 88px;
     width: 35%;
     margin-left: 51px;
-  }
-  .shape {
-    margin-left: 324px;
-    margin-top: 420px;
-    float: left;
   }
   section {
   }
@@ -669,6 +671,7 @@ body {
     font-size: 24px;
  }
  .testimonia__icon {
+   top: 120px;
    left: 8px;
  }
  .testimonia__header-first {
@@ -692,6 +695,7 @@ body {
     margin-left: 160px;
 }
  .blog-post {
+   margin-top: 100px;
   }
   .blog-post__block {
     padding: 5px 0px 1px 14px;
@@ -707,7 +711,7 @@ body {
     margin-left: 33px;
   }
   .logos-img {
-    margin-top: 72px;
+    width: 100%;
  }
  .logos-img__item1 {
    width: 125px;
@@ -742,13 +746,18 @@ body {
  }
  footer {
 }
+.menu-footer__list {
+    float: left;
+    margin-top: 30px;
+}
 .menu-footer {
 }
 .menu-footer__item {
     margin-left: 35px;
 }
 .sign-design {
-    margin-top: 31px;
+    margin-top: 50px;
+    margin-right: 50px;
     float: right;
 }
 }
@@ -807,11 +816,6 @@ body {
     width: 42%;
     margin-left: 51px;
   }
-  .shape {
-    margin-left: 470px;
-    margin-top: 420px;
-    float: left;
-  }
   .logo {
     float: left;
     padding-top: 69px;
@@ -823,7 +827,7 @@ body {
   .menu-home__item {
     margin-left: 48px;
  }
- header {
+ .above-section {
    background-image: url(../img/header.png);
  }
  section {
@@ -838,7 +842,6 @@ body {
    width: 31%;
    height: 209px;
    line-height: 28px;
-   margin-top: 77px;
    margin-left: 17px;
  }
  .about-company__icon {
@@ -861,9 +864,9 @@ body {
  }
  .testimonia__icon {
    left: 1px;
+   top: 120px;
  }
- .testimonia__block {
-}
+
  .testimonia__header-first {
     float: left;
     font-size: 30px;
@@ -885,6 +888,7 @@ body {
    height: 46px;
  }
  .blog-post {
+   margin-top: 100px;
 }
  .blog-post__block {
    width: 87%;
@@ -908,7 +912,6 @@ body {
     height: 180px;
   }
  .logos-img {
-   margin-top: 73px;
  }
  .logos-img__item1 {
    margin-left: 60px;
@@ -926,17 +929,17 @@ body {
   margin-left: 32px;
  }
  footer {
-  height: 200px;
+  height: 100px;
  }
  .menu-footer {
  }
  .menu-footer__list {
     float: left;
     margin-left: 117px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .sign-design {
-    margin-top: 50px;
+    margin-top: 46px;
     margin-right: 156px;
 }
 }
