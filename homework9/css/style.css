@@ -31,6 +31,7 @@ body {
   .above-section {
     background-image: url(../img/header.jpg);
     background-position-x: 50%;
+    background-position: center;
   }
   .wrapper {
     width: 100%;
@@ -432,7 +433,7 @@ body {
     height: 100px;
     background-image: url(../img/footer-new.png);
     background-position-y: 50%;
-
+    background-position: center;
   }
   .sign-design {
     text-align: center;
